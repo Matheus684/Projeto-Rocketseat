@@ -140,10 +140,10 @@ ul li a:hover{
 /* media queries */
 @media (min-width: 700px){
     :root {
-        --bg-url: url(./assent/assent/bg-desktop.jpg);
+        --bg-url: url(./asset/asset/bg-desktop.jpg);
     }
     .light {
-        --bg-url: url(./assent/assent/bg-desktop-light.jpg);
+        --bg-url: url(./asset/asset/bg-desktop-light.jpg);
     }
 }
 

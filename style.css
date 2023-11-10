@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    /*background-image: url(./assets/assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;*/
-    /* background: color image repeat position /size */
     background: var(--bg-url) no-repeat top center/ cover;
+    height: 100vh;
 }
 body *{
     /* O * significa um seletor universal, tudo que estiver no body vai ter tal configuraçao*/
@@ -137,5 +133,13 @@ ul li a:hover{
 #social-links a:hover{
     background: var(--highlight-color);
     
-
+}
+/* media queries */
+@media (min-width: 700px){
+    :root {
+        --bg-url: url(./assent/assent/bg-desktop.jpg);
+    }
+    .light {
+        --bg-url: url(./assent/assent/bg-desktop-light.jpg);
+    }
 }
